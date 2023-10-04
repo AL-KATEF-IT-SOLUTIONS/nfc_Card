@@ -1,0 +1,15 @@
+.bar{
+   font-size: 14px;
+   font-weight: 700;
+}
+@media screen and (max-width:991px) {
+   .container{
+      display:block!important;
+      flex-direction: column!important;
+      justify-content: start!important;
+      margin-left: 0px;
+      margin-right: 0px;
+      
+   }
+   
+}

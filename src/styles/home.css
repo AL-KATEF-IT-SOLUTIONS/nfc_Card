@@ -1,0 +1,36 @@
+.caption h1{
+    font-size: 80px!important;
+    font-weight: 700!important;
+}
+.name{
+    color:#5B38E3;
+}
+.coma{
+    color:rgb(199, 199, 199)
+}
+.content p{
+    font-size: 22px;
+    font-weight: 500!important;
+
+    color:rgb(85, 85, 85)
+}
+.button .btn{
+   height: 60px;
+   width: 150px;
+   color:white;
+   background-color: #5B38E3;
+   border-radius: 0%;
+   margin-bottom: 100px;
+   
+}
+.cap{
+    margin-top:100px!important;
+    margin-left:150px!important;
+
+}
+.img{
+    margin-top: -150px;
+    width: 200px;
+    height: 300px;
+    z-index: -1;
+}

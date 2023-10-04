@@ -1,0 +1,34 @@
+.about{
+    /* margin-top: 100px; */
+    color:white
+}
+.abt{
+    padding-top: 50px;
+}
+.para p{
+    text-align: center;
+}
+.exp h1{
+    font-size: 60px!important;
+    color:#f7d046;
+}
+.exp p{
+    color: #646464;
+    font-weight: 600;
+}
+
+.box{
+    width:250px;
+    height:250px;
+    color : black;
+    background-color: aqua;
+    margin-left: 60px;
+    text-align: center;
+}
+.box p{
+    font-size: small;
+    font-weight: 500;
+}
+.icon{
+    font-size:50px ;
+}
