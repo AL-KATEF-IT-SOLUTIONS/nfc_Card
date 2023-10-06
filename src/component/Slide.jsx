@@ -26,14 +26,21 @@ const Slide = () => {
           items: 2
         },
         mobile: {
-          breakpoint: { max: 464, min: 0 },
+          breakpoint: { max: 500, min: 0 },
           items: 1
         }
       };
 
   return (
     <>
- <Carousel infinite={true} responsive={responsive}>
+ <Carousel className='d-flex' 
+ infinite={true} 
+ responsive={responsive}
+ arrows={false}
+ autoPlay={true}
+Speed={500}
+ >
+
     <div className='cards'>
     <Card style={{ width: '25rem'}}>
     <Card.Img height={'250px'} variant="top"  src={image} />
@@ -47,7 +54,7 @@ const Slide = () => {
     </Card.Body>
   </Card>
     </div>
-    <div>
+    <div className='cards'>
     <Card style={{ width: '25rem'}}>
     <Card.Img height={'250px'} variant="top"  src={image} />
     <Card.Body>
@@ -60,7 +67,7 @@ const Slide = () => {
     </Card.Body>
   </Card>
     </div>
-    <div>
+    <div className='cards'>
     <Card style={{ width: '25rem'}}>
     <Card.Img height={'250px'} variant="top"  src={image} />
     <Card.Body>
@@ -73,7 +80,7 @@ const Slide = () => {
     </Card.Body>
   </Card>
     </div>
-    <div>
+    <div className='cards'>
     <Card style={{ width: '25rem'}}>
     <Card.Img height={'250px'} variant="top"  src={image} />
     <Card.Body>

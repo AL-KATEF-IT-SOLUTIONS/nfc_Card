@@ -3,7 +3,6 @@ import About from './component/About';
 import Home from './component/Home';
 import Navb from './component/Navbar';
 import Section from './component/Section';
-import Slide from './component/Slide';
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
         <Home/>
         <About/>
         <Section/>
-        <Slide/>
+
 
     </div>
   );

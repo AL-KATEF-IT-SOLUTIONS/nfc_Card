@@ -1,11 +1,13 @@
 .about{
-    /* margin-top: 100px; */
-    color:white
+    width:100%;
+    color:white;
 }
 .abt{
     padding-top: 50px;
 }
 .para p{
+    width:700px;
+    margin-top: 50px;
     text-align: center;
 }
 .exp h1{
@@ -16,19 +18,77 @@
     color: #646464;
     font-weight: 600;
 }
+.boxes{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.box{
+.box1{
     width:250px;
     height:250px;
     color : black;
-    background-color: aqua;
+    background-color: #a78bff;
     margin-left: 60px;
     text-align: center;
 }
-.box p{
+.box2{
+    width:250px;
+    height:250px;
+    color : black;
+    background-color:#59f9be;
+    margin-left: 60px;
+    text-align: center;
+}
+.box3{
+    width:250px;
+    height:250px;
+    color : black;
+    background-color:#d35ef7;
+    margin-left: 60px;
+    text-align: center;
+} 
+.box1,.box2,.box3 p{
     font-size: small;
     font-weight: 500;
 }
 .icon{
     font-size:50px ;
+}
+
+@media screen and (max-width:1254px){
+   .about {
+        margin-top: 100px;
+    }
+}
+
+
+@media screen and (max-width:786px) {
+
+    .about {
+        margin-top:0px;
+    }
+
+
+    .para p{
+        width:auto;
+        text-align: center;
+    }
+    .exp h1{
+        font-size: 40px!important;
+    }
+    .boxes{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .box1,.box2,.box3{
+ 
+        margin-left: 0;
+   
+    }
+
+    
 }

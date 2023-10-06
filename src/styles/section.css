@@ -10,3 +10,13 @@
     font-weight:700;
 
 }
+.line2{
+        width: 300px;
+        height: auto;
+        transform: rotate(180deg);
+        float: right;
+        margin-top:-7%
+}
+.img3{
+    z-index: -2;
+}
