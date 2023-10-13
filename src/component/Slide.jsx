@@ -93,7 +93,7 @@ Speed={500}
     </Card.Body>
   </Card>
     </div>
-  </Carousel>;
+  </Carousel>
 
     </>
   )

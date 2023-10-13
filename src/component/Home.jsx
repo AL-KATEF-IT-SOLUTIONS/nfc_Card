@@ -26,11 +26,11 @@ const Home = () => {
 
         <div className='caption'>
             <h2>Hi <span className='coma'>,</span></h2>
-            <h2 >I am <span className='name2'>Shahid</span> </h2>
+            <h2 >I am <span className='name2'>Shahid Irfan</span> </h2>
 
             <div className='content mt-3'>
-          <p>Product and Visual interface designer in Google.Specialize in <br className='br' />
-          ui ux and product development & responsive web  design</p>
+          <p className='container'>Leading the charge at Alkatef IT Solutions as the Sales  <br className='br' />
+          Manager, With a passion for technology and a knack for <br className='br' /> fostering client relationships, I bring over 6 years of<br className='br' />experience in different portfolios of digital marketing.</p>
         </div>
 
         <div className='button mt-5'>
